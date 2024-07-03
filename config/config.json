@@ -1,0 +1,31 @@
+{
+    "device": "1",
+    "batch_size": 64,
+    "num_epochs": 20,
+    "learning_rate": 0.001,
+    "data_path": "../../my_data/soccer_segment/data.yaml",
+    "image_size": [
+        640,
+        640
+    ],
+    "root_output_path": "../../segmentation_results",
+    "save_total_limit": 3,
+    "model_config": {
+        "model_name": "yolov8n.pt",
+        "pretrained": true
+    },
+    "mean": [
+        0.6057153344154358,
+        0.6540960669517517,
+        0.5557436943054199
+    ],
+    "std": [
+        0.3198946416378021,
+        0.29578715562820435,
+        0.3516492545604706
+    ],
+    "model_path": "yolov8n.pt",
+    "train_limit": 20,
+    "test_limit": 20,
+    "font_size": 1
+}

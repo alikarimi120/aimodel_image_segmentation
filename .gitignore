@@ -1,0 +1,14 @@
+*.jpg
+*.jpeg
+*.png
+*.trt
+*.csv
+events*
+*.txt
+*.gz
+*ubyte
+*.pth
+*.onnx
+*.pt
+*.engine
+*.tensorrt
