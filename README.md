@@ -1,5 +1,5 @@
 
-# AI Model Image Detection Automatic
+# AI Model Image Segmentation Automatic
 
 This repository offers a comprehensive solution for image detection using AI models, supporting PyTorch, ONNX, and TensorRT formats.
 
